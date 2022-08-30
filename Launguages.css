@@ -1,0 +1,361 @@
+body {
+	background: rgba(255, 255, 255, 0.8);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#title {
+	margin-left: 30%;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: -5%;
+}
+/*-------------------GRAPH---------------*/
+#container {
+	list-style-type: none;
+	line-height: 2.5rem;
+	color: blue;
+	background: rgba(0, 0, 0, 0.04);
+	margin-right: 10%;
+	margin-left: -20%;
+	margin-top: -2%;
+	border: 1px solid black;
+	width: 100%;
+	display: relative;
+}
+
+#python {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: python;
+	width: 29.72%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes python {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 29.72%;
+	}
+}
+
+#java {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: java;
+	width: 19.03%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes java {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 19.03%;
+	}
+}
+
+#js {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: js;
+	width: 8.2%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes js {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 8.2%;
+	}
+}
+#csymbol {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: csymbol;
+	width: 7.28%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes csymbol {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 7.28%;
+	}
+}
+#php {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: php;
+	width: 6.09%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes php {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 6.09%;
+	}
+}
+
+#cplus {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: cplus;
+	width: 5.91%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes cplus {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 5.91%;
+	}
+}
+
+#c {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: c;
+	width: 5.91%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+@keyframes c {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 5.91%;
+	}
+}
+#r {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: r;
+	width: 3.72%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes r {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 3.72%;
+	}
+}
+#objC {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: objC;
+	width: 2.47%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes objC {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 2.47%;
+	}
+}
+#swift {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: swift;
+	width: 2.36%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 1.15rem;
+}
+
+@keyframes swift {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 2.36%;
+	}
+}
+#kotlin {
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	animation-name: kotlin;
+	width: 1.62%;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	line-height: 30px;
+	height: 30px;
+	position: relative;
+	font-size: 1.15rem;
+	border-radius: 20px;
+}
+
+@keyframes kotlin {
+	0% {
+		width: 0%;
+	}
+	0% {
+		z-position: 100;
+	}
+
+	100% {
+		width: 1.62%;
+	}
+}
+
+#hello {
+	position: absolute;
+	left: 100px;
+	bottom: 0.09px;
+	color: black;
+	font-size: 1.1rem;
+	display: none;
+	animation-duration: 5s;
+	animation-name: hello;
+}
+
+@keyframes hello {
+	100% {
+		display: block;
+	}
+}
+
+/*-----------PERCENT MARKERS-----------------------------*/
+#one {
+	margin-left: 105%;
+
+	color: black;
+	margin-top: -30px;
+	display: none;
+}
+
+#two {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 105%;
+}
+
+#three {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 100px;
+}
+
+#four {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 75px;
+}
+
+#five {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 75px;
+}
+
+#six {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 75px;
+}
+#seven {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 75px;
+}
+
+#eight {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 75px;
+}
+
+#nine {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 100px;
+}
+
+#ten {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 75px;
+}
+
+#eleven {
+	display: none;
+	color: black;
+	margin-top: -30px;
+	margin-left: 75px;
+}

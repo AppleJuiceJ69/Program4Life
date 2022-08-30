@@ -1,0 +1,170 @@
+/*------------SET FOR EVERY SOURCE IN DROPDOWN MENU---------*/
+
+#title {
+	text-align: center;
+}
+
+#title h3 {
+	color: #444;
+}
+
+/*----CONTAINERS FOR UDEMY COURSES----- UDEMY.HTML*/
+
+#VIEW{
+	margin-left: 22%;
+}
+#container {
+	
+	width: 70%;
+	height: 80%;
+	line-height: 2;
+}
+#container2 {
+	
+	width: 70%;
+	height: 80%;
+	line-height: 2;
+}
+
+#container3 {
+	
+	width: 70%;
+	height: 80%;
+	line-height: 2;
+}
+
+#container4 {
+
+	width: 70%;
+	height: 80%;
+	line-height: 2;
+}
+
+#container5 {
+	
+	width: 70%;
+	height: 80%;
+	line-height: 2;
+}
+#container6 {
+	
+	width: 70%;
+	height: 80%;
+	line-height: 2;
+}
+
+/*--------END OF UDEMY PAGE----------*/
+/*---------Youtube course*/
+#gridU {
+	margin-left: 35%;
+}
+
+#gridU a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+/*youtube.html------------*/
+#gridY{
+	margin-left: 30%;
+	width: 50%;
+}
+
+
+/*------------END OF YOUTUBE.HTML----------*/
+#container3 {
+}
+/*------------About.html----------------*/
+#containerAb {
+	margin-top: -1%;
+	margin-left: 20%;
+}
+
+.pages {
+	font-size: 1.3rem;
+	color: #444;
+	line-height: 1.5;
+	width: 90%;
+
+	position: relative;
+}
+
+#hr {
+	border: 1px solid blue;
+	width: 5%;
+	margin-left: 35%;
+	margin-top: 3%;
+}
+#pic {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 1px solid black;
+	width: 10em;
+	margin-left: 29.5%;
+
+	height: 10em;
+	border-radius: 90%;
+	box-shadow: 3px 5px 5px 1px rgba(0, 0, 0, 0.9);
+	background-image: url(images/Aj.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header1 {
+	margin-left: 23%;
+}
+.header2 {
+	margin-left: 16.3%;
+}
+
+/*----------------BOOKS.HTML SOURCES------------------*/
+
+#sub {
+	height: 50vh;
+	background-color: rgba(0, 0, 0, 0.05);
+ /*---You have to use this in order to move the text down */
+}
+
+.sub1 {
+/*---You have to use this in order to move the text down */
+	
+	font-size: 1.7rem;
+	font-style: oblique;
+	font-weight: bold;
+	display: inline-block;
+	width: 60%;
+}
+
+#IMG{
+	background-image: url(/Images/coding.webp);
+	background-color: red;
+}
+
+/*------------bootcamp.html------------*/
+
+
+
+#grid1 {
+	margin-left: 25%;
+	border: 1px solid black;
+}
+
+#grid a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#rating{
+	font-size: 1.2rem;
+}
+
+#overview{
+	font-size: 1.2rem;
+	
+}
+.head{
+	font-size: 1.5em;
+}

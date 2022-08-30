@@ -1,0 +1,264 @@
+body {
+	background: rgba(255, 255, 255, 0.8);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*-------------------NAVIGATION BAR---------------------------*/
+#navBar {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	justify-content: end;
+}
+#navBar li {
+	list-style-type: none;
+	margin: 10px;
+	font-size: 1.15rem;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px;
+}
+
+#left {
+	position: relative; /*--YOU HAVE TO MAKE IT POSITION RELATIVE IN ORDER TO GET IT TO MOVE LEFT--------------------------*/
+	right: 30%;
+}
+
+@media (max-width: 930px) {
+	#left{
+		right: 15%
+	}
+}
+@media (max-width: 758px) {
+	#left{
+		right: 5%
+	}
+}
+.text {
+	font-size: 1.2rem;
+	width: 55%;
+	line-height: 2rem;
+	margin-left: 28%;
+	color: #444;
+
+	position: relative;
+}
+#name {
+	margin-left: 28%;
+	font-size: 0.9em;
+}
+/*below NAV BAR*/
+
+.intro {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+	width: 44%;
+	margin-left: 30%;
+	line-height: 2.5rem;
+	position: relative; /*---You have to use this in order to move the text down */
+	top: 5%;
+	
+	
+}
+
+
+@media(max-width: 835px){
+	.intro{
+		font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+	width: 54%;
+	margin-left: 25%;
+	line-height: 2.5rem;
+	position: relative; /*---You have to use this in order to move the text down */
+	
+	}
+}
+
+@media(max-width: 680px){
+	.intro{
+		font-size: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+	width: 70%;
+	margin-left: 20%;
+	line-height: 2.5rem;
+	position: relative; /*---You have to use this in order to move the text down */
+	
+	}
+}
+
+@media(max-width: 526px){
+	.intro{
+		font-size: 1.4rem;
+	text-align: center;
+	font-weight: bold;
+	width: 80%;
+			margin-left: 15%;
+	line-height: 2.5rem;
+	position: relative; /*---You have to use this in order to move the text down */
+	
+	}
+}
+@media(max-width: 466px){
+	.intro{
+		font-size: 1.2rem;
+	text-align: center;
+	font-weight: bold;
+	width: 80%;
+			margin-left: 13%;
+	line-height: 2.5rem;
+	
+	position: relative; /*---You have to use this in order to move the text down */
+	
+	}
+}
+
+#bullet {
+}
+/*CONTACTS SECTIONS TO THE LEFT*/
+#groups{
+	border: 1px solid black;
+	
+	display: inline-block;
+	height: 60vh;
+	position: fixed;
+
+}
+@media screen and (max-width: 665px){
+	#groups {
+		margin-top: -100px;
+	}
+}
+
+#groups a{
+		line-height: 90px;
+		
+		padding: 19px;
+	
+}
+
+
+/*-----------------------------------*/
+#navBar li a {
+	text-decoration: none;
+	color: black;
+}
+
+#update{
+	color: blue;
+	font-weight: bold;
+}
+
+.sources {
+	background: rgba(255, 255, 255, 0.01);
+
+	width: 170px;
+	position: relative;
+	z-index: 0;
+}
+
+.sources:hover {
+	transform: scale(1.1);
+	background-color: rgba(0, 0, 0, 0.015);
+	color: blue;
+}
+
+#source {
+	display: none;
+	position: absolute;
+	line-height: 12px;
+}
+#hr {
+}
+footer {
+	margin-top: 100vh;
+}
+#contents {
+	background: rgba(0, 0, 0, 0.03);
+	height: 10rem;
+
+	height: 15rem;
+}
+.fa-laptop {
+	color: blue;
+}
+#navBar #home a {
+	color: rgba(0, 0, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.01);
+}
+#navBar #home a:hover {
+	border-bottom: 2px solid blue;
+	animation-name: nav;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+/*-------------COURSE DESIGN-------------*/
+
+#design {
+	margin-left: 28%;
+}
+
+/*---------------------FOOTER-----------------------*/
+
+
+#center{
+	
+	background-color: lightgrey;
+	
+	width: 100%;
+	text-align: center;
+}
+td, a{
+	color: rgba(0,0,20);
+	text-decoration: none;
+	font-size: 14px;
+}
+
+td, a:hover{
+	color: blue;
+}
+
+#end{
+	
+	background-color: lightgrey;
+}
+
+
+/*--------CopyRIGHT PAGE------*/
+
+hr {
+	border: 0.2px solid rgba(0, 0, 0, 0.2);
+	color: blue;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#affiliate {
+	display: flex;
+	;
+	justify-content: center;
+	list-style-type: none;
+		font-size: 0.9rem;
+	font-style: italic;
+
+	
+}
+#affiliate li {
+	margin: 10px;
+	
+}
+#copy {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.9rem;
+	padding: 5px;
+	
+	
+}
+
