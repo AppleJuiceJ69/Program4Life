@@ -5,14 +5,72 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#title {
+#titleL {
+	
 	margin-left: 30%;
 	font-size: 1.5rem;
 	font-weight: bold;
 	margin-top: -5%;
 }
+#lTitle{
+	position: relative;
+	top: -30px;
+	margin-left: 30%;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+@media (max-width: 1044px) {
+	#lTitle {
+		position: relative;
+	top: -30px;
+	margin-left: 25%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	}
+}
+@media (max-width: 782px) {
+	#lTitle {
+		position: relative;
+	top: -30px;
+	margin-left: 20%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	}
+}
+@media (max-width: 672px) {
+	#lTitle {
+		position: relative;
+	top: -30px;
+	margin-left: 15%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	}
+}
+@media (max-width: 547px) {
+	#lTitle {
+		position: relative;
+	top: -30px;
+	margin-left: 12%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	}
+}
+@media (max-width: 414px) {
+	#lTitle {
+		position: relative;
+	top: -30px;
+	margin-left: 20%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	}
+}
+@media (min-width: 1514px) {
+	#lTitle {
+		margin-left: 35%;
+	}
+}
 /*-------------------GRAPH---------------*/
-#container {
+#containerL {
 	list-style-type: none;
 	line-height: 2.5rem;
 	color: blue;

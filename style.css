@@ -6,7 +6,7 @@ body {
 	padding: 0;
 }
 
-/*-------------------NAVIGATION BAR---------------------------*/
+/*-------------------NAVIGATION BAR For Everything---------------------------*/
 #navBar {
 	display: flex;
 	flex-wrap: wrap;
@@ -97,7 +97,7 @@ body {
 		font-size: 1.4rem;
 	text-align: center;
 	font-weight: bold;
-	width: 80%;
+	width: 75%;
 			margin-left: 15%;
 	line-height: 2.5rem;
 	position: relative; /*---You have to use this in order to move the text down */
@@ -110,13 +110,24 @@ body {
 	text-align: center;
 	font-weight: bold;
 	width: 80%;
-			margin-left: 13%;
+			margin-left: 17%;
 	line-height: 2.5rem;
 	
 	position: relative; /*---You have to use this in order to move the text down */
 	
 	}
 }
+@media(max-width: 384px){
+	.intro{
+		font-size: 1.2rem;
+	text-align: center;
+	font-weight: bold;
+	line-height: 2.5rem;
+	margin-left: 18%;
+	}
+	
+	}
+
 
 #bullet {
 }
@@ -135,10 +146,21 @@ body {
 	}
 }
 
+@media screen and (max-width: 494px){
+	#groups {
+		width: 70px;
+	}
+}
+
 #groups a{
 		line-height: 90px;
 		
 		padding: 19px;
+	
+}
+
+#FooterDeleter{
+	border: 1px solid black
 	
 }
 
@@ -175,9 +197,7 @@ body {
 }
 #hr {
 }
-footer {
-	margin-top: 100vh;
-}
+
 #contents {
 	background: rgba(0, 0, 0, 0.03);
 	height: 10rem;

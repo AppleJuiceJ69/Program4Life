@@ -2,7 +2,9 @@
 
 #title {
 	text-align: center;
+	
 }
+
 
 #title h3 {
 	color: #444;
@@ -11,49 +13,51 @@
 /*----CONTAINERS FOR UDEMY COURSES----- UDEMY.HTML*/
 
 #VIEW{
-	margin-left: 22%;
+	margin-left: 10%;
 }
-#container {
-	
+/*End of UDEMY COURSES*/
+/*Containers for Book HTML*/
+#container1 {
+	margin-left: 25%;
 	width: 70%;
 	height: 80%;
 	line-height: 2;
 }
 #container2 {
-	
+	margin-left: 25%;
 	width: 70%;
 	height: 80%;
 	line-height: 2;
 }
 
 #container3 {
-	
+	margin-left: 25%;
 	width: 70%;
 	height: 80%;
 	line-height: 2;
 }
 
 #container4 {
-
+margin-left: 25%;
 	width: 70%;
 	height: 80%;
 	line-height: 2;
 }
 
 #container5 {
-	
+	margin-left: 25%;
 	width: 70%;
 	height: 80%;
 	line-height: 2;
 }
 #container6 {
-	
+	margin-left: 25%;
 	width: 70%;
 	height: 80%;
 	line-height: 2;
 }
 
-/*--------END OF UDEMY PAGE----------*/
+/*--------END OF Book----------*/
 /*---------Youtube course*/
 #gridU {
 	margin-left: 35%;
@@ -74,35 +78,45 @@
 
 
 /*------------END OF YOUTUBE.HTML----------*/
-#container3 {
-}
+
 /*------------About.html----------------*/
 #containerAb {
 	margin-top: -1%;
 	margin-left: 20%;
 }
-
+.Headers{
+	margin-left: 28%
+}
 .pages {
 	font-size: 1.3rem;
 	color: #444;
 	line-height: 1.5;
-	width: 90%;
-
+	width: 60%;
+	margin-left: 28%;
 	position: relative;
+}
+#aboutHead{
+	margin-left: 7%;
 }
 
 #hr {
-	border: 1px solid blue;
-	width: 5%;
-	margin-left: 35%;
+	border: 2px solid blue;
+	width: 4%;
+	position: relative;
+	left: 76px;
 	margin-top: 3%;
+}
+#aboutLife{
+	border: 2px solid red;
+	width: 100vw;
+	margin: 0;
 }
 #pic {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	border: 1px solid black;
 	width: 10em;
-	margin-left: 29.5%;
+	margin-left: 12%;
 
 	height: 10em;
 	border-radius: 90%;
@@ -112,15 +126,15 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.header1 {
-	margin-left: 23%;
+.AboutContainer{
+	margin-left: 30%;
 }
-.header2 {
-	margin-left: 16.3%;
-}
+
 
 /*----------------BOOKS.HTML SOURCES------------------*/
-
+#BookContainer{
+	margin-left: 40%;
+}
 #sub {
 	height: 50vh;
 	background-color: rgba(0, 0, 0, 0.05);
@@ -130,13 +144,47 @@
 .sub1 {
 /*---You have to use this in order to move the text down */
 	
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 	font-style: oblique;
 	font-weight: bold;
 	display: inline-block;
 	width: 60%;
+	line-height: 2rem;
+	margin-top: 1%;
 }
-
+@media (max-width: 858px){
+	.sub1{
+		font-size: 1.25rem;
+	font-style: oblique;
+	font-weight: bold;
+	display: inline-block;
+	width: 80%;
+	line-height: 1.8rem;
+	margin-top: 1%;
+	}
+}
+@media (max-width: 619px){
+	.sub1{
+		font-size: 1.25rem;
+	
+	font-weight: bold;
+	display: inline-block;
+	width: 85%;
+	line-height: 1.75rem;
+	margin-top: 1%;
+	}
+}
+@media (max-width: 490px){
+	.sub1{
+		font-size: 1.3rem;
+	
+	font-weight: bold;
+	display: inline-block;
+	width: 95%;
+	line-height: 1.35rem;
+	
+	}
+}
 #IMG{
 	background-image: url(/Images/coding.webp);
 	background-color: red;
@@ -167,4 +215,45 @@
 }
 .head{
 	font-size: 1.5em;
+	margin-left: 30%;
+}
+
+
+/*----------------UDEMY.HTML-------------------*/
+#udemyList{
+	font-weight: bold;
+}
+.udemyHR{
+	border-left: 5px solid blue;
+	
+}
+#udemyContainer{
+	
+}
+@media (max-width: 780px){
+	#udemyList{
+		margin-left: -5%;
+	}
+}
+@media (max-width: 465px){
+	#udemyList{
+		margin-left: -10%;
+	}
+}
+@media (max-width: 475px){
+	#udemyList{
+		margin-left: -25%;
+	}
+}
+
+
+@media (max-width: 780px){
+	#udemyContainer{
+		margin-left: -10%;
+	}
+}
+@media (max-width: 465px){
+	#udemyContainer{
+		margin-left: -25%;
+	}
 }
