@@ -82,7 +82,7 @@ margin-left: 25%;
 /*------------About.html----------------*/
 #backgroundImg{
 	border: 1px solid black;
-	background-image: url(/Images/sky.jpg);
+	background-image: url(Images/sky.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
