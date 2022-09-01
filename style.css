@@ -60,7 +60,8 @@ body {
 	margin-left: 30%;
 	line-height: 2.5rem;
 	position: relative; /*---You have to use this in order to move the text down */
-	top: 5%;
+	top: 7%;
+	
 	
 	
 }
@@ -200,9 +201,14 @@ body {
 
 #contents {
 	background: rgba(0, 0, 0, 0.03);
-	height: 10rem;
+	height: 20rem;
 
-	height: 15rem;
+	
+}
+@media (max-width: 1200px){
+	#contents {
+		height: 25rem;
+	}
 }
 .fa-laptop {
 	color: blue;
@@ -250,7 +256,14 @@ td, a:hover{
 }
 
 
-/*--------CopyRIGHT PAGE------*/
+.footerDestinations{
+width: 30%;
+margin-left: 35%;
+background-color: rgba(0,0,0,0.5)
+}
+
+
+/*--------CopyRIGHT PAGE Bottom of Footer------*/
 
 hr {
 	border: 0.2px solid rgba(0, 0, 0, 0.2);
@@ -281,4 +294,10 @@ hr {
 	
 	
 }
+.contacts{
+	border-right: 1px solid black;
+	
+	
+}
+
 

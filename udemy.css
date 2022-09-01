@@ -80,8 +80,92 @@ margin-left: 25%;
 /*------------END OF YOUTUBE.HTML----------*/
 
 /*------------About.html----------------*/
+#backgroundImg{
+	border: 1px solid black;
+	background-image: url(/Images/sky.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 120vh;
+	position: relative
+
+}
+#Surround{
+	text-align: center;
+	margin-top: 30vh;
+	margin-left: 30%;
+	
+	
+
+	
+}
+#surroundFlex{
+display: flex;
+
+}
+#greeting h1{
+	 font-family: 'Great Vibes';font-size: 6em;
+	
+}
+#Name h1{
+	font-family: 'Berkshire Swash';font-size: 3em;
+}
+#join a{
+	font-family: 'Just Another Hand';
+	font-size: 1.5em;
+	margin-left: -1%;
+}
+
+
+
+
+
+
+#pageHead{
+	margin-top: 50%;
+}
+#beginAbout{
+text-align: center;
+	
+
+	background-color: rgba(0,0,0,.1);
+	height: 40vh;
+}
+#aboutHeader{
+	position: relative;
+		top: 30%;
+		font-size: 6em;
+		color: rgba(255,255,255,.8);
+		
+		font-weight: bold;
+		
+		
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto
+}
+@media (max-width: 1141px) {
+	#aboutHeader{
+		width: 40%;
+	}
+}
+@media (max-width: 853px) {
+	#aboutHeader{
+		width: 60%;
+	}
+}
+@media (max-width: 569px) {
+	#aboutHeader{
+		width: 75%;
+	}
+}
+@media (max-width: 457px) {
+	#aboutHeader{
+		width: 92%;
+	}
+}
 #containerAb {
-	margin-top: -1%;
+	margin-top: -100%;
 	margin-left: 20%;
 }
 .Headers{
@@ -91,6 +175,7 @@ margin-left: 25%;
 	font-size: 1.3rem;
 	color: #444;
 	line-height: 1.5;
+	
 	width: 60%;
 	margin-left: 28%;
 	position: relative;
@@ -99,35 +184,14 @@ margin-left: 25%;
 	margin-left: 7%;
 }
 
-#hr {
-	border: 2px solid blue;
-	width: 4%;
-	position: relative;
-	left: 76px;
-	margin-top: 3%;
-}
-#aboutLife{
-	border: 2px solid red;
-	width: 100vw;
-	margin: 0;
-}
-#pic {
-	margin-top: 5%;
-	margin-bottom: 5%;
+#aboutImage{
+	background-image: url(/Images/Aj.jpg);
 	border: 1px solid black;
-	width: 10em;
-	margin-left: 12%;
-
-	height: 10em;
-	border-radius: 90%;
-	box-shadow: 3px 5px 5px 1px rgba(0, 0, 0, 0.9);
-	background-image: url(images/Aj.jpg);
+	width: 25%;
+	position: absolute;
+	height: 100vh;
+	background-position: center center;
 	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.AboutContainer{
-	margin-left: 30%;
 }
 
 
@@ -219,6 +283,9 @@ margin-left: 25%;
 	width: 50%;
 	
 }
+.bootcampTitles{
+
+}
 
 
 /*----------------UDEMY.HTML-------------------*/
@@ -258,4 +325,17 @@ margin-left: 25%;
 	#udemyContainer{
 		margin-left: -25%;
 	}
+}
+
+/*-----------------------MAINTENCE PAGE------------------*/
+
+#maintenance{
+	text-align: center ;
+	font-size: 30px;
+	margin-top: 10%;
+	border: 1px solid black;
+	height: 50vh;
+	padding: 10px;
+	width: 50%;
+	margin-left: 25%;
 }
