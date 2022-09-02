@@ -119,6 +119,7 @@ display: flex;
 	font-size: 1.5em;
 	margin-left: -1%;
 }
+
 #join a:hover{
 	color: red;
 }
@@ -198,6 +199,47 @@ text-align: center;
 }
 #join{
 	margin-left: -10%;
+}
+@media (max-width: 1320px){
+	#join{
+		margin-left: -4%;
+	}
+}
+@media (max-width: 1186px){
+	#join{
+		margin-left: -4%;
+	}
+	#Surround{
+		margin-left: 15%;
+	}
+}
+@media (max-width: 1000px){
+	#join{
+		margin-left: 10%;
+	}
+	
+}
+@media (max-width: 900px){
+	#join{
+		margin-left: 27%;
+	}
+	
+}
+@media (max-width: 786px){
+	#join{
+		margin-left: 35%;
+	}
+	
+}
+@media (max-width: 606px){
+	#Surround{
+		margin-left: 2%;
+	}
+}
+@media (max-width: 606px){
+	#Surround{
+		margin-left: 0%;
+	}
 }
 
 
