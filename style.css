@@ -135,15 +135,15 @@ body {
 /*CONTACTS SECTIONS TO THE LEFT*/
 #groups{
 	border: 1px solid black;
-	
+	top: 50%;
 	display: inline-block;
-	height: 60vh;
+	height: 50vh;
 	position: fixed;
 
 }
 @media screen and (max-width: 665px){
 	#groups {
-		margin-top: -100px;
+		margin-top: 1%;
 	}
 }
 
