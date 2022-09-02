@@ -184,21 +184,49 @@ body {
 	position: relative;
 	z-index: 0;
 }
+.sources a{
+	color: blue;
+}
+/*-----------Changes color seperately on dropdown menu------*/
+/*--------- THIS IS FOR THE DROPDOWN MENU*/
+.sources#underlineUdemy a{
+	color: blue;
+}
+.sources#underlineBooks a{
+	color: blue;
+}
+.sources#underlineCoding a{
+	color: blue;
+}
+.sources#underlineYoutube a{
+	color: blue;
+}
+.sources#underlineBootcamp a{
+	color: blue;
+}
+
 
 .sources:hover {
 	transform: scale(1.1);
-	background-color: rgba(0, 0, 0, 0.015);
-	color: blue;
+	font-weight: bold;
+	
+	
+	background-color:rgba(0,0,0,.02);
+	box-shadow: 1px 1px 1px 2px blue;
+	
+	width: 65%;
+		color: blue;
 }
 
 #source {
 	display: none;
 	position: absolute;
 	line-height: 12px;
+	
 }
 #hr {
 }
-
+/*---------------*/
 #contents {
 	background: rgba(0, 0, 0, 0.03);
 	height: 20rem;
@@ -213,15 +241,11 @@ body {
 .fa-laptop {
 	color: blue;
 }
-#navBar #home a {
-	color: rgba(0, 0, 255, 0.9);
-	background-color: rgba(0, 0, 0, 0.01);
-}
-#navBar #home a:hover {
-	border-bottom: 2px solid blue;
-	animation-name: nav;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
+li#underlineHome a{
+	border-bottom: 2px solid black;
+	color: blue;
+	border-radius: 5px;
+	
 }
 
 /*-------------COURSE DESIGN-------------*/

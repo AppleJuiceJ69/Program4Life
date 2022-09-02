@@ -80,6 +80,12 @@ margin-left: 25%;
 /*------------END OF YOUTUBE.HTML----------*/
 
 /*------------About.html----------------*/
+li#underlineAbout a{
+	border-bottom: 2px solid black;
+	color: blue;
+	border-radius: 5px;
+}
+
 #backgroundImg{
 	border: 1px solid black;
 	background-image: url(Images/sky.jpg);
@@ -87,16 +93,14 @@ margin-left: 25%;
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 120vh;
-	position: relative
+	z-index: -1;/*----ALLOWS DROPDOWN TO GO OVER BACKGROUND*/
 
+	
 }
 #Surround{
 	text-align: center;
 	margin-top: 30vh;
-	margin-left: 30%;
-	
-	
-
+	margin-left: 25%;
 	
 }
 #surroundFlex{
@@ -115,14 +119,13 @@ display: flex;
 	font-size: 1.5em;
 	margin-left: -1%;
 }
-
-
-
-
-
+#join a:hover{
+	color: red;
+}
 
 #pageHead{
-	margin-top: 50%;
+	margin-top: 40%;
+	
 }
 #beginAbout{
 text-align: center;
@@ -192,6 +195,9 @@ text-align: center;
 	height: 100vh;
 	background-position: center center;
 	background-size: cover;
+}
+#join{
+	margin-left: -10%;
 }
 
 
@@ -339,3 +345,4 @@ text-align: center;
 	width: 50%;
 	margin-left: 25%;
 }
+

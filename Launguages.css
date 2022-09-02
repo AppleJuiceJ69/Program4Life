@@ -5,6 +5,14 @@ body {
 	margin: 0;
 	padding: 0;
 }
+li#underlineLaunguages a {
+	border-bottom: 2px solid black;
+	color: blue;
+	
+	border-radius: 5px;
+}
+
+
 #titleL {
 	
 	margin-left: 30%;
